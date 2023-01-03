@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* h2{
+    position: fixed;
+    left: 50%;
+    top: 2%;
+    font-size: 50px;
+} */
+/* .web_name{
+    position: fixed;
+    background-color:green;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100px;
+    font-size: medium;
+} */
+body information_box{
+   position:fixed;
+}
+.information_box{
+    position: fixed;
+    background-color: chartreuse;
+    height: 100px;
+    width: 100%;
+    
+}
+.information_box ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.information_box ul li{
+    text-align: center;
+    width: 160px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+}
+.information_box ul li a{
+    text-decoration: none;
+    color:white;
+}
+.first, .information_box ul li:hover
+{
+    background-color: green;
+    border-radius: 5px;
+      
+}
+.first .fa{
+    margin-right: 2px;
+}
+.sub_information_box1{
+    display: none;
+
+}
+.information_box ul li:hover .sub_information_box1{
+    display: block;
+    border-radius: 5px;
+    position: absolute;
+    background: green;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 200px;
+
+}
+.information_box ul li:hover .sub_information_box1 ul{
+    display: block;
+    margin: 00px;
+   
+}
+.information_box ul li:hover .sub_information_box1 ul li{
+    width: 160px;
+    padding: 2px;
+    margin: 10px;
+    border-bottom: 1px dotted white;
+    /* border-right: 1px dotted white; */
+    background: transparent;
+    border-radius: 3%;
+    text-align: left;
+}
+.information_box ul li:hover .sub_information_box1 ul li:last-child{
+    border-bottom: none;
+}
+.information_box ul li:hover .sub_information_box1 ul li a:hover{
+    color: red;
+}
+.fa-angle-right{
+    float: right;
+}
+.sum_box2{
+    display: none;
+}
+.sub_1:hover .sum_box2{
+    position: absolute;
+    display: block;
+    margin-top: 30px;
+    margin-left: 115px;
+    background-color:green ;
+    border-radius: 5px;
+
+}
+ #home{
+    position: fixed;
+    left: 2%;
+}
+#information{
+    position: fixed;
+    left: 12%;
+}
+#student_details{
+    position: fixed;
+    left: 22%;
+}
+#bank_details{
+    position: fixed;
+    left: 32%;
+}
+#donations{
+    position: fixed;
+    left: 42%;
+}
+#logout{
+    position: fixed;
+    right: 2%;
+    top: 2%;
+    font-size: 38px;
+}
